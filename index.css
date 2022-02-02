@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+body{
+	padding-top: 50px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+ .jumbotron {
+	color: #f4a53f;
+	background: #ecf0f1;
+
+	
+}
+.navbar-inverse{
+	background:#f4a53f ;
+}
+.navbar-inverse .navbar-nav li a{
+color:white;
+}
+ .navbar-inverse .navbar-brand{
+	color: white;
+}
+
+.change{
+  
+  margin-top: 1rem;
+  margin-right:-6rem;
+}
+/* --------------- Hero ---------------- */
+.hero {
+    min-height: calc(90vh - 60px);
+    background: url("./imageS/img1.jpg") center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 100px;
+  }
+  
+ 
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.heading{
+  margin-top: 5rem;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+/*=======================card list==============*/
+.lower {
+  
+  background-color: #eee;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin-left: 5rem;
+  margin-right: 10rem;
+ 
+  
+}
+
+.grid {
+  margin-right: 10rem;
+  display: grid;
+  width: 90em;
+  grid-gap: 6rem;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  align-items: start;
+}
+
+.grid-item {
+  background-color: #fff;
+  border-radius: 0.4rem;
+  overflow: hidden;
+  box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.grid-item:hover {
+  transform: translateY(-0.5%);
+  box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.5);
+}
+
+.card-img {
+  display: block;
+  width: 100%;
+  height: 20rem;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 3rem;
+}
+
+.card-header {
+  font-size: 3rem;
+  font-weight: 500;
+  color: #0d0d0d;
+  margin-bottom: 1.5rem;
+}
+
+.card-text {
+  
+  font-size: 1.4rem;
+  letter-spacing: 0.1rem;
+  line-height: 1.2;
+  color: #3d3d3d;
+  margin-bottom: 2.5rem;
+}
+
+.card-btnread {
+  position:center;
+  margin-right: 2rem;
+  margin-left:4rem;
+ 
+  height: 4rem;
+
+ 
+  width: 30%;
+  padding: auto;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #f8990a;
+  background-color: hsl(34, 86%, 71%);
+  border: none;
+  border-radius: 0.6rem;
+  transition: 0.2s;
+  cursor: pointer;
+  letter-spacing: 0.1rem;
+}
+
+.card-btnread span {
+  margin-left: 1rem;
+  
+  transition: 0.2s;
+}
+
+.card-btnread:hover,
+.card-btnread:active {
+  background-color: hsl(34, 86%, 71%);
+}
+
+.card-btnread:hover span,
+.card-btnread:active span {
+  margin-left: 1.5rem;
+}.card-btndown {
+  position:center;
+  margin-left:0rem;
+  height: 4rem;
+
+ 
+  width: 30%;
+  padding: auto;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #f8990a;
+  background-color: hsl(34, 86%, 71%);
+  border: none;
+  border-radius: 0.6rem;
+  transition: 0.2s;
+  cursor: pointer;
+  letter-spacing: 0.1rem;
+}
+
+.card-btndown span {
+  margin-left: 1rem;
+  
+  transition: 0.2s;
+}
+
+.card-btndown:hover,
+.card-btndown:active {
+  background-color: hsl(34, 86%, 71%);
+}
+
+.card-btndown:hover span,
+.card-btndown:active span {
+  margin-left: 1.5rem;
+}
+
+@media only screen and (max-width: 60em) {
+  body {
+    padding: 3rem;
+  }
+
+  .grid {
+    grid-gap: 3rem;
+  }
+}
+/*=================footer============*/
+footer{
+  margin-top: 0rem;
+  background: #f4a53f ;
+  height:auto;
+  margin-top: 15rem;
+  width: 100%;
+  font-family: sans-serif;
+  color: white;
+}
+.footer-container{
+  padding-top:0rem;
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.footer-container h3{
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+.social{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+.social li{
+  margin: 0 10px;
+
+}
+.social a {
+  color: #fff;
+  text-decoration: none;
+}
+.social a i{
+  font-size: 2rem;
+}
+.social a:hover i{
+  color: hsl(32, 100%, 51%);
+}
+.footer-bottom{
+  text-align: center;
+ background: #f8990a;
+ word-spacing: 2px;
+}
+
+
+
+ 
+  
+  
+
